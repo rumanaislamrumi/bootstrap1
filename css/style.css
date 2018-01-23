@@ -1,0 +1,201 @@
+h1{
+	font-weight:bold;
+	font-size:50px;
+}
+
+.navbar-brand {
+    height: auto;
+    padding: 10px 10px;
+}
+.navbar-default {
+	background-color:#e0aa01;
+	padding:20px;
+}
+.navbar-brand > img {
+	width: auto;
+	height: 35px;
+}
+.navbar-toggle {
+	margin-top: 15px;
+}
+.navbar {
+	margin-bottom: 0
+}
+.navbar-default .navbar-nav>li>a{
+	color:#fff;
+	font-size:18px;
+}
+.is-sticky{
+	z-index: 200;
+}
+.is-sticky .navbar-default{
+	transition: all 0;
+}
+.banner{
+	background-color:#000;
+	color:#fff;
+}
+.banner .btn{
+	background-color:#D19F01;
+	color:#fff;
+	border:1px solid #fff;
+}
+.banner.right-header{
+	padding-top:50px;
+}
+.banner .right-header h3{
+	font-size:50px;
+	font-weight:bold;
+	color:#EEB501;
+}
+.banner .right-header h2{
+	font-weight:bold;
+	color:#fff;
+}
+.banner .right-header> p{
+		color:#721613;
+}
+
+#banner {
+	 background-image:url('img/Creative-Agency-Portfolio-Website-PSD-Template.png')
+
+}
+
+#about >img{
+	width:100%;
+	height:auto;
+}
+#about{
+	background-color:#fff;
+	padding:40px;
+}
+@media (min-width: 992px){
+	padding-top:80px;
+
+}
+#about .about-left >h3{
+	font-size:50px;
+	font-weight:bold;
+}
+.thumbnail>.icon{
+	width:100px;
+	color:#fff;
+	background-color:#EEB501;
+	padding:10px;
+	border-radius:50%;
+	margin-left:90px;
+	margin-top:10px;
+}
+.thumbnail {
+    display: block;
+    padding: 2px;
+    margin-bottom: 5px;
+    line-height: 1.42857143;
+    background-color:#fff;
+    border: none;
+    border-radius:none;
+    }
+#portfolio {
+background-color: #D19F01;
+padding:40px 0;
+color:#fff;
+}
+#portfolio p{
+	padding-bottom:20px;
+}
+#portfolio .btn{
+	margin-top:20px;
+	background-color:#D19F01;
+	border:2px solid #fff;
+	color:#fff;
+}
+.portfolio h1:before, .portfolio h1:after {
+	content:"";
+	display:inline-block;
+	border-bottom:1px solid #fff;
+	width:15%;
+	height:1px;
+	margin:0 15px;
+	vertical-align:middle;
+}
+
+#banner{
+		position:relative;
+		z-index:100;
+}
+#banner img{
+	width:100%;
+}
+#banner .banner-text{
+		width:100%;
+		position:absolute;
+		text-align:center;
+		top:50%;
+		left:50%;
+		color:#fff;
+		transform:translate(-50%, -50%)
+}
+#banner .banner-text h1{
+		font-size:50px;
+		font-weight:bold;
+		color:#fff;
+}
+
+.banner-text h1:before, .banner-text h1:after {
+	content:"";
+	display:inline-block;
+	border-bottom:1px dotted #fff;
+	width:15%;
+	height:1px;
+	margin:0 15px;
+	vertical-align:middle;
+}
+#team{
+	padding:50px 0;
+}
+#logo{
+	padding:50px 0;
+}
+#logo .text{
+	padding:30px 0;
+}
+
+
+footer{
+	padding:30px 0;
+    background-color:#e0aa01;
+    height:auto;
+    width:100%;
+    bottom:0;
+    font-weight:lighter;
+    color:white;
+	 font-size : 15px;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 15px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:auto;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
